@@ -1,11 +1,7 @@
 
-let red = 10;
-let blue = 20;
-let yellow = 40;
+let hello = "Привет ";
+let goodbye = "Пока ";
 
-let fiolet = red + blue;
-let green = yellow + blue;
-let orange = yellow + red;
-let black = fiolet + green + orange;
+let name = "Петр";
 
-console.log(black);
+console.log(hello + name + ". " + goodbye + name);
