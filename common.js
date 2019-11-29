@@ -1,7 +1,10 @@
 
-let hello = "Привет ";
-let goodbye = "Пока ";
+let iGoToNorth = function(number) {
+  if (number > 10 && number < 30 || number === 7) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
-let name = "Петр";
-
-console.log(hello + name + ". " + goodbye + name);
+console.log(iGoToNorth(17));
