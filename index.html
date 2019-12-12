@@ -22,21 +22,6 @@
         <p><input id="btn" type="button" value="Как много выбрано?" /></p>
       </form>
       
-      <script>
-      function howMany(selectObject) {
-        var numberSelected = 0;
-        for (var i = 0; i < selectObject.options.length; i++) {
-          if (selectObject.options[i].selected) {
-            numberSelected++;
-          }
-        }
-        return numberSelected;
-      }
-      
-      var btn = document.getElementById("btn");
-      btn.addEventListener("click", function(){
-        alert('Выбрано элементов: ' + howMany(document.selectForm.musicTypes))
-      });
-      </script>
+
 </body>
 </html>
