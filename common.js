@@ -1,13 +1,15 @@
-var cat = {
-  name: "Luna",    // такая запись в объекте называется Свойство объекта
-  age: 12,
-  color: orange,
 
-  words: function() {     // такая запись в объекте называется Метод объекта
-    console.log("Meow");
-  },
+var canvas = document.getElementById('canvas');
 
-  work: function() {
-    console.log("I can run, eat and sleep");
-  }
-};
+var ctx = canvas.getContext('2d');
+
+var gradient = ctx.createLinearGradient(0,0,300,150);
+gradient.addColorStop(0, 'green');
+gradient.addColorStop(1, 'rgba(0, 255, 0, 0)');
+
+
+ctx.fillStyle = gradient;
+// ctx.fillStyle = 'blue'; //сюда можно писать rgba, цвет, #ffffff
+ctx.fillRect(0,0,300,150); // 0, 0 - левый верхний угол, 300 - ширина, 150 - высота
+
+
