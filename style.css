@@ -1,0 +1,28 @@
+.setup button {
+    border: none;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+.setup-open {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border: 1px solid grey;
+    position: relative;
+    margin: 0 auto;
+}
+.hidden {
+    display: none;
+}
+
+.setup-close {
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
