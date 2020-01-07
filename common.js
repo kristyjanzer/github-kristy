@@ -1,3 +1,6 @@
-me.onclick = function() {
-    alert("Here I am");
+var spisok = document.querySelector('.spisok');
+var title = document.querySelector('.title');
+
+title.onclick = function() {
+    spisok.classList.add('open');
 };
