@@ -1,6 +1,22 @@
-var spisok = document.querySelector('.spisok');
-var title = document.querySelector('.title');
+var buttons = document.querySelectorAll('button');
+var retext = document.createElement('div');
+    retext.classList.add('retext'); 
 
-title.onclick = function() {
-    spisok.classList.add('open');
+var reClick = function(butt) {
+  butt.addEventListener('click', function(evt) {
+        butt.append(retext);
+        retext.textContent = butt.value;
+  });
 };
+
+var teClick = function(butt) {
+  butt.addEventListener('click', function(evt) {
+      retext.classList.remove('retext'); 
+  });
+};
+
+
+for (var i = 0; i < buttons.length; i++) {
+  var butt = buttons[i];
+  reClick(butt);
+}
