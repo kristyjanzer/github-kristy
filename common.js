@@ -1,25 +1,17 @@
-var buttons = document.querySelectorAll('button');
+(function() {
+  var buttons = document.querySelectorAll('button');
+var retext = document.createElement('div');
+    retext.classList.add('retext');
 
-var reClick = function(butt) {
-  butt.addEventListener('click', function(evt) {
-    (function() {
-      var retext = document.createElement('div');
-      retext.classList.add('retext'); 
-      butt.append(retext);
-      retext.textContent = butt.value;
-    })();
-  });
-};
-
-var teClick = function(butt) {
-  butt.removeEventListener('click', function(evt) {
-    if(evt.type === click) {
-      retext.classList.remove('retext'); 
-    }
+var creates = function(butt){
+  butt.addEventListener('click', function() {
+    butt.append(retext);
+    retext.textContent = butt.value;
   });
 };
 
 for (var i = 0; i < buttons.length; i++) {
   var butt = buttons[i];
-  reClick(butt);
+  creates(butt);
 }
+})();
