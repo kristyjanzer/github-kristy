@@ -1,17 +1,8 @@
-(function() {
-  var buttons = document.querySelectorAll('button');
-var retext = document.createElement('div');
-    retext.classList.add('retext');
+// var width = 600;
+// var height = 400;
+// var clicks = 0;
 
-var creates = function(butt){
-  butt.addEventListener('click', function() {
-    butt.append(retext);
-    retext.textContent = butt.value;
-  });
-};
-
-for (var i = 0; i < buttons.length; i++) {
-  var butt = buttons[i];
-  creates(butt);
-}
-})();
+// var target = {
+//   x: getRandomNumber(width),
+//   y: getRandomNumber(height)
+// };
