@@ -1,68 +1,16 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>JS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-<body style="text-align: center">
-<h1>Найди подарки!</h1>
-<img src="s1200.jpg" alt="игра" width="400px" height="400px"
-id="map">
-<p id="distance"></p>
-<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+<body>
 
+    
 
-<script>
-// Получить случайное число от 0 до size-1
-var getRandomNumber = function (size) {
-return Math.floor(Math.random() * size);
-};
-// Вычислить расстояние от клика (event) до подарков (target)
-var getDistance = function (event, target) {
-var diffX = event.offsetX - target.x;
-var diffY = event.offsetY - target.y;
-return Math.sqrt((diffX * diffX) + (diffY * diffY));
-};
-// Получить для расстояния строку подсказки
-var getDistanceHint = function (distance) {
-if (distance < 10) {
-return "Обожжешься!";
-} else if (distance < 20) {
-return "Очень горячо";
-} else if (distance < 40) {
-return "Горячо";
-} else if (distance < 80) {
-return "Тепло";
-} else if (distance < 160) {
-return "Холодно";
-} else if (distance < 320) {
-return "Очень холодно";
-} else {
-return "Замерзнешь!";
-} };
-// Создаем переменные
-var width = 400;
-var height = 400;
-var clicks = 0;
-// Случайная позиция подарков
-var target = {
-x: getRandomNumber(width),
-y: getRandomNumber(height)
-};
-// Добавляем элементу img обработчик клика
-$("#map").click(function (event) {
-clicks++;
-// Получаем расстояние от места клика до подарков
-var distance = getDistance(event, target);
-// Преобразуем расстояние в подсказку
-var distanceHint = getDistanceHint(distance);
-// Записываем в элемент #distance новую подсказку
-$("#distance").text(distanceHint);
-// Если клик был достаточно близко, поздравляем с победой
-if (distance < 8) {
-alert("Подарки найдены! Сделано кликов: " + clicks);
-} });
-</script>
+<script src="common.js"></script>    
 </body>
 </html>
-
