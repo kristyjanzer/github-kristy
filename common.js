@@ -1,8 +1,26 @@
-// var width = 600;
-// var height = 400;
-// var clicks = 0;
+var wizard = [{
+  name: 'Luna',
+  year: 12,
+  color: 'red'
+},
+{
+  name: 'Barsik',
+  year: 10,
+  color: 'blue'
+},
+{
+  name: 'Musya',
+  year: 8,
+  color: 'yellow'
+}];
 
-// var target = {
-//   x: getRandomNumber(width),
-//   y: getRandomNumber(height)
-// };
+// for (var i = 0; i < wizard.length; i++) {
+//   var numb = wizard[i];
+//   console.log(numb);
+// }
+
+var numb = wizard.map(function(wizard) {
+  return wizard.name;
+});
+
+console.log(numb);
