@@ -14,14 +14,12 @@ var wizard = [{
   color: 'yellow'
 }];
 
-// for (var i = 0; i < wizard.length; i++) {
-//   var numb = wizard[i];
-//   console.log(numb.name);
-// }
 
-var numb = wizard.filter(function(wizard) {
-  return wizard.color === 'yellow';
-}).map(function(wizard) {
-  return wizard.name;
+wizard.forEach(function (wizards) {
+  var button = document.createElement('button');
+  button.textContent = wizards.name;
+  button.addEventListener('click', function(e) {
+    button.style.backgroundColor = wizard.color;
+  });
+  document.body.appendChild(button);
 });
-console.log(numb);
