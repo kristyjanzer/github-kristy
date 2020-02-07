@@ -15,11 +15,14 @@ var wizard = [{
 }];
 
 
-wizard.forEach(function (wizards) {
-  var button = document.createElement('button');
-  button.textContent = wizards.name;
-  button.addEventListener('click', function(e) {
-    button.style.backgroundColor = wizard.color;
-  });
-  document.body.appendChild(button);
-});
+// wizard.forEach(function (wizards) {
+//   var button = document.createElement('button');
+//   button.textContent = wizards.name;
+//   button.addEventListener('click', function(e) {
+//     button.style.backgroundColor = wizard.color;
+//   });
+//   document.body.appendChild(button);
+// });
+
+var numbers = [1, 10, 89, 293, 45, 26];
+console.log(Math.max.apply(Math, numbers));
