@@ -1,0 +1,204 @@
+[33mcommit 88e53200abbd460bfc7aa5ab84f34db4d5597a4a[m[33m ([m[1;36mHEAD -> [m[1;32mhtmlacademykurs[m[33m, [m[1;31morigin/htmlacademykurs[m[33m)[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Fri Feb 7 19:48:26 2020 +0300
+
+    Как из массива найти наибольшее число
+
+[33mcommit 65742e84bed2da6974abf77c41140bb87fa0b03b[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Thu Feb 6 19:36:04 2020 +0300
+
+    Варианты написания for и foreach
+
+[33mcommit d9394dd207f9f20610a01f34add09e2a52c8553f[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Mon Feb 3 21:49:09 2020 +0300
+
+    Пример объединения map и filter
+
+[33mcommit 226d2c42b8fd9dc995f245df8fe4c100c4af32db[m
+Merge: 7cadbd1 2267b16
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Mon Feb 3 20:25:24 2020 +0300
+
+    Пример того как работает map()
+
+[33mcommit 7cadbd1995d40a516bab46f2428525dd20f0ac63[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Mon Feb 3 20:16:35 2020 +0300
+
+    Пример того, как работает map()
+
+[33mcommit 2267b1666dfc0bc3f655afa5a3488c3f2523b87f[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Mon Feb 3 20:07:55 2020 +0300
+
+    Пример того как работает map()
+
+[33mcommit b5ea4b994209bf157dc7341ff6b1b74b4cc5a98a[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Fri Jan 24 17:51:45 2020 +0300
+
+    Игра Найди на карте подарок
+
+[33mcommit ee27cfe4e6e61c6a1562b98ee837a169928fc20a[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Mon Jan 20 22:30:38 2020 +0300
+
+    Исправила ошибки в  модальном окне с кнопками
+
+[33mcommit c921aa37017811b4cd6118a008573b9bdc4f795e[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Fri Jan 17 14:59:37 2020 +0300
+
+    Как было до модальных кнопок
+
+[33mcommit bc9fdef02e0a8c17869e53deac0820b80b1aa574[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Fri Jan 17 14:57:18 2020 +0300
+
+    Сделала что-то типо модального окна с кнопками
+
+[33mcommit b4cee30a1372c4c9733485e7745c46b07fd4bbe7[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Tue Jan 7 15:46:01 2020 +0300
+
+    Сделала выпадающий список
+
+[33mcommit da8c459803a67ecad066270ccbff826631f6ed26[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Tue Jan 7 14:38:54 2020 +0300
+
+    отрабатываю в html без onclick
+
+[33mcommit 087a2dac0508f7a15e5bddc9491bd8bebf7f37a9[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Tue Jan 7 14:36:40 2020 +0300
+
+    отрабатываю onclick в html
+
+[33mcommit 20b1993c77d395af5f78349c78b1a7553f394df4[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Wed Jan 1 22:33:09 2020 +0300
+
+    Сделала сама открытие и закрытие модального окна
+
+[33mcommit 092aca53bded64486724b88f9b2ef3597d84450c[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Mon Dec 30 17:30:57 2019 +0300
+
+    Не помню что я делала
+
+[33mcommit 7a9b70294655e19a174ffbd7d7b8d75fcc2cbc2a[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Thu Dec 19 14:11:03 2019 +0300
+
+    Делаю canvas по примерам developer.mozilla
+
+[33mcommit 3ad8f9ae438d22960a620b9b1f61ccd9b36a68db[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Wed Dec 18 15:23:32 2019 +0300
+
+    Работа с текстом в canvas
+
+[33mcommit bef4a0456c6934a5229ea8b4666834d0f47ce68f[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Wed Dec 18 14:36:24 2019 +0300
+
+    Нарисовали корону в canvas
+
+[33mcommit 01a33807aef7f371a4c60f6c88ff0aaf26c2f97e[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Wed Dec 18 14:28:25 2019 +0300
+
+    Дополнительные методы в canvas
+
+[33mcommit fb7e66fe2d0f507e4b64e372f06dad27283dd3e7[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Wed Dec 18 14:25:29 2019 +0300
+
+    Обычный цвет в canvas
+
+[33mcommit 9eb9e932ea88dcfa72bc787c9a951f88ce36b9f6[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Wed Dec 18 14:24:15 2019 +0300
+
+    Круглый градиент в canvas
+
+[33mcommit 11020890eb632b895eb96c51142f74f45f75d406[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Wed Dec 18 14:22:44 2019 +0300
+
+    Рисуем с помощью canvas: градиент
+
+[33mcommit 2d72be76430f62813a1043e20627aa068dd745bc[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Wed Dec 18 13:56:55 2019 +0300
+
+    Свойство и метод объекта - пример
+
+[33mcommit 73c0e7d8df10e0159ec5f271d85db6727fe2fba5[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Wed Dec 18 13:07:07 2019 +0300
+
+    Исправлен последний код
+
+[33mcommit a5358ada76f54e97cc7ced5cf51941d739ae8435[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Wed Dec 18 12:22:01 2019 +0300
+
+    В раковине ? посуды
+
+[33mcommit 5d630fb74809e6017323c11d9c4b92d6acb8a2aa[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Thu Dec 12 22:47:31 2019 +0300
+
+    Добавила игру Поле-чудес для примера
+
+[33mcommit 1fd81cd5f75e93bcb37698ad95628d14175c9ac9[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Thu Dec 12 19:50:32 2019 +0300
+
+    Я попыталась сделать задание в 01 Знакомство
+
+[33mcommit 76be22fab2860438f7cca7780075cea3b94b4866[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Thu Dec 12 19:38:50 2019 +0300
+
+    Я сама себе наставник
+
+[33mcommit b5dcccc5440c773a4bae45909caeeff6b005c03c[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Thu Dec 12 19:28:05 2019 +0300
+
+    Создала ветку и добавила readme
+
+[33mcommit c4aa6f57831c171eb79e55ca2f529da10230d584[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Fri Nov 29 19:25:20 2019 +0300
+
+    Добавила index.html
+
+[33mcommit d6d2d75f66464e87925976c45823aaba18796c10[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Fri Nov 29 15:06:17 2019 +0300
+
+    Работаю с функциями и условиями
+
+[33mcommit 151e19c92ee0396c9d8614461d66f5071d498e0e[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Fri Nov 29 14:37:18 2019 +0300
+
+    Задание привет-пока Петр
+
+[33mcommit af71887e5bbd4d6d5802c932d5058de23e783bdb[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Fri Nov 29 14:34:44 2019 +0300
+
+    Соединяли цвета по заданию
+
+[33mcommit 59b8a0203b3f35ec8745fc92563f1c797d757005[m
+Author: Kristina Yantser <kristy.net.ua@mail.ru>
+Date:   Tue Nov 26 15:03:23 2019 +0300
+
+    Игра Поле чудес

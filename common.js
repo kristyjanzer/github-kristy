@@ -1,28 +1,27 @@
-var wizard = [{
-  name: 'Luna',
-  year: 12,
-  color: 'red'
-},
-{
-  name: 'Barsik',
-  year: 10,
-  color: 'blue'
-},
-{
-  name: 'Musya',
-  year: 8,
-  color: 'yellow'
-}];
+/* jshint esversion: 6 */
 
 
-// wizard.forEach(function (wizards) {
-//   var button = document.createElement('button');
-//   button.textContent = wizards.name;
-//   button.addEventListener('click', function(e) {
-//     button.style.backgroundColor = wizard.color;
-//   });
-//   document.body.appendChild(button);
-// });
+var catshome = function(cat) {
+    do {
+        var randomcat = Math.floor(Math.random() * catshome.length);
+        var cats = cat.splice(randomcat, 1)[0];
 
-var numbers = [1, 10, 89, 293, 45, 26];
-console.log(Math.max.apply(Math, numbers));
+        console.log("Корм не получил " + cats.name + ', ' + cats.year);
+    } while (cat.length > 1);
+
+    console.log(cat[0].name + ', ' + cat[0].year + " все получил");
+};
+
+var createcat = function(name, year) {
+    return {
+        name: name,
+        year: year
+    };
+};
+
+
+var white = createcat('Barsik', 18);
+var red = createcat('Luna', 12);
+var black = createcat('Black', 3);
+
+catshome([white, red, black]);
